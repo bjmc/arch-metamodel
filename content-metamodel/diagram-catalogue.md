@@ -17,3 +17,7 @@ This document lists a variety of different types of diagram that can be useful w
 <br><img alt="Data Flow Diagram Example" src="https://upload.wikimedia.org/wikipedia/commons/c/c8/DataFlowDiagram_Example.png" width=400>
 
 [More detail on Wikipedia](https://en.wikipedia.org/wiki/Data_flow_diagram).
+
+### Attribution
+
+- Some elements of this page have been re-used from Wikipedia.org.
