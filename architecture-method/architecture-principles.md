@@ -86,3 +86,8 @@ For simplicity we will record the principles that relate to each other below, pr
 **By default we will follow the architecture principles documented in the HLOF and the D1SS for our architecure practice.**
 
 Where necessary we will deviate from the above principles but the decision to do so will be recorded on the project's architecture decision log, along with a clear explanation of why this decision was necessary.
+
+
+## References
+
+- [TOGAF on Architecure Principles](http://pubs.opengroup.org/architecture/togaf9-doc/arch/chap23.html).
