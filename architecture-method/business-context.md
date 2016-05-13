@@ -1,4 +1,4 @@
-## Business Context
+# Business Context
 
 The purpose of this document is to provide a business context for archtiecture work. By business context we primarily mean business principles, business goals and business drivers. It aims to describe factors that exist beyond the direct influence of architecture practice but may very well have a considerable influence over the way that an architecture is established.
 
