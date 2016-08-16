@@ -15,8 +15,8 @@ There are two existing sets of principles that are available, authored by the Sc
 
 ## High Level Operating Framework
 
-| ID | Name | Statement
-| -- | ---- | ---------
+| ID  | Name | Statement
+| --- | ---- | ---------
 | OFP-CC1 | Digital Standards | The design of applications and services (information and transactions) will be user focused and with a presumption of alignment with the technical standards and design principles of mygov.scot
 | OFP-CC2 | Multi-Channel | The design of new applications and services shall not restrict service consumers from accessing the new functionality from currently known or defined access devices.
 | OFP-CC3 | Verification and easy sign-in for citizen access | Public Sector organisations will use the national myaccount service to verify the identity of citizen access to digital public services as a default. Where this is not currently possible, organisations will ensure that any procured or developed authentication system complies with standards-based federation.
@@ -35,8 +35,8 @@ There are two existing sets of principles that are available, authored by the Sc
 
 ## Digital First Service Standard
 
-| ID | Name | Statement
-| -- | ---- | ---------
+| ID  | Name | Statement
+| --- | ---- | ---------
 |  1 | User Centered | Understand user needs. Research to develop a deep knowledge of who the service users are and what that means for the design of the service.
 |  2 | Continuous Feedback | Put a plan in place for ongoing user research and usability testing to continuously seek feedback and input from users to improve the service.
 |  3 | Cross-functional Team | Put in place a sustainable multidisciplinary team that can design, build and operate the service, led by a suitably skilled senior manager with decision-making responsibility.
