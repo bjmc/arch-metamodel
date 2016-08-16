@@ -57,7 +57,8 @@ There are two existing sets of principles that are available, authored by the Sc
 | 18 | Open Data | Make all non-personal, non-commercially sensitive data from the service available for re-use by others under an appropriate licence.
 | 19 | Green ICT | Deliver a digital service whose impact on the environment, over its whole lifecycle, is understood. Plan to reduce the environmental impact of the service over time.
 | 20 | Data Hosting and Data Centres | Adopt cloud computing or virtualisation as the preferred approaches to the delivery of data hosting for the service.
-| 21 | Sponsor Acceptance | Test the service from beginning to end with the minister responsible for it.
+| 21 | Ecosystem | Identify how your service aligns with Scotland’s digital ecosystem.
+| 22 | Sponsor Acceptance | Test the service from beginning to end with the minister responsible for it.
 
 
 ## Consideration
