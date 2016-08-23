@@ -23,11 +23,6 @@ Some criteria from the Digital First Service Standard are of particular importan
 In summary, the Digital First Service Standard expects delivery organisations to realise a truly adaptive delivery methodology that allows them to deliver continuously on behalf their users, Scottish citizens. Both the software development process and the architecture development method must be tailored to reflect this requirement and these two lifecycles must be correctly integrated so that they work in sympathy.
 
 
-## People
-
-*TODO*
-
-
 ## Activities
 
 It is very common within DPS&BT that the architecture "capability" to be realised is a citizen or business facing service. Therefore, by default, we re-use GDS [service design phases](https://www.gov.uk/service-manual/phases) as the basis for describing which activities will be undertaken and what deliverables will be produced over the course of the delivery process. In summary, GDS' service design phases are as follows:
@@ -44,9 +39,6 @@ It is very common within DPS&BT that the architecture "capability" to be realise
   Even the best services may eventually reach retirement. That should be treated with the same care as went into the building and maintaining of that service.
 
 Both GDS and TOGAF define the concept of a series of phases – this can lead to confusion. When discussing this tailoring of the TOGAF architecure method when we refer to phases we will always use the GDS definition of a phase. In the following sections we will describe specific architecture activities and explain which GDS phase an activity takes place in. We will also briefly describe how specific TOGAF phases map to GDS phases.
-
-
-## Activities
 
 ### Discovery
 
@@ -159,6 +151,56 @@ Although the service is no longer required, significant value has been accumulat
 Finally, the technical architect will lead the secure and cost effective decomssioning of existing system infrastructure, cancellation of third party platform services and related concerns.
 
 
+## People
+
+This section lists the people that we would expect to contribute to an agile architecture approach and describes what role each will play.
+
+### Technical Architect
+
+The technical architect leads the technical delivery aspects of an overall service delivery. This means that they will be responsible for the data, application and technology architecture for the service. They will work in close partnership with the product manager in order to realise the product vision and achieve a service that meets the needs of real users. In practice this means that the technical architect will:
+
+- lead the realisation of the technical solution agreed with the product manager;
+- own the technical architecture and technical roadmap, acting as technical design authority;
+- be expert in and promote this solution architecture method;
+- represent the delivery team in architecture governance matters and standards assessments;
+- line manage and mentor other technical team members.
+
+### Product Manager
+
+The product manager owns the product vision and is responsible for day-to-day product delivery aspects of the overall service delivery. Therefore the product manaager typically owns the business archtitecture for a service, working in partnership with the techical architect ensure the technical solution realises the product vision. In practice, this means the product manager will:
+
+- lead research to develop a deep understanding of the users of the service;
+- regularly seek feedback from real users and use this information to continuously improve the service;
+- identify, elbaorate, prioritise and finally accept users stories as a part of ongoing service delivery;
+- identify, classify and then actively manage the full range of internal and external stakeholders;
+- be proficient in this solution architecture method;
+- represent the delivery team in programme governance matters and standards assessments;
+- line manage and mentor other product team members.
+
+N.B. we use the term _product manager_ rather than the Scrum-specific _product owner_, acknowledging that many teams may use other product delivery approaches. However, we consider the roles to be equivalent.
+
+### Delivery Manager
+
+The delivery manager owns the day-to-day execution of the delivery project in order to ensure that it runs smoothly and is regularly delivering value on behalf of the service's users. The delivery manager owns the ongoing operation of the project including planning, applying necessary controls as well as regular reporting. In practice this means the delivery manager will:
+
+- plan, facilitate, and document the various ceremonies required to execute the iterative delivery of the service;
+- work with team members to identify impediments and resolve;
+- ensure the right resources are available in the right place at the right time in order to avoid delays and to accelerate delivery;
+- regularly review delivery approach with the team to highlight sucess as well as identify areas of improvement;
+- represent the delivery team in respect to broader programme management activities, in particular coordinating effectively across multiple delivery teams;
+- be proficient in this solution architecture method.
+
+### Technical Design Authority (TDA)
+
+The technical design authority is an external person or group that provides regular review and constructive challenge of the service's technical architecture and associated solution. The primary purpose of the TDA is to provide a mechanism for regular, proportionate and independent architecture evaluation activities to be completed. In practice this means the TDA will:
+
+- review all architecture deliverables (defined below) providing comments and highlighting omissions and other areas of improvement;
+- confirm the technical architecture is fully aligned with digital standards, policy, strategy and other guidance;
+- provide external tracking of architecture risks and dispensations (if necessary);
+- maintain coherence across architectures from multiple services;
+- highlight opportunities for re-use and to contribute to the broader digital ecosystem;
+- drive domain engineering activities to enahnce the organisation's architecture repository.
+
 ## Deliverables
 
 This section lists the architecture deliverables that we would expect to produce under an agile architecture approach and describes what each deliverable is for.
@@ -239,10 +281,6 @@ In particular, the delivery team should be able to see how completion of individ
 
 Each solution architecture project that the division undertakes will produce and then maintain an architecture roadmap as a part of alpha, beta and live activities. Unlike standard TOGAF the arch roadmap is never "finalised". It is a living document that reflects the current best understanding of priorities wrt continuous incremental improvement of the solution.
 
-#### System Quality Specification
-
-*TODO*
-
 #### Architecture Description
 
 The architecture description (in TOGAF this is referred to as the 'Architecture Definition Document') provides the detailed description of the architecture. Its primary purpose is to document the architecture in a way that stakeholders can understand and clearly demonstrates that the architecture meets their needs. The architecture description is typically a container document that is primarily composed a suite of architecture views (representations of structural aspects of the architecture illustrating how specific user needs are met) and architecture perspectives (discussion of how the architecture meets one or more quality characteristics).
@@ -251,12 +289,18 @@ Under an agile architecture this document is not authored and finalised prior to
 
 Each solution architecture project that the division undertakes will produce and then maintain an architecture description as a part of alpha, beta and live activities.
 
+#### System Quality Specification
+
+While we do think that is necessary to provide a clear and unambiguous quantitative definition for the solution to be delivered we have found that we can typically produce something considerably simpler than a full architecture requirements specification. Instead we create a catalogue of system KPIs, based on specific, measurable targets tha relate to a defined system quality attribute.
+
+Wherever possible this catalogue is authored as a part of our alpha phase, in consultation with a range of stakeholders, but especially with the business customer. This cataloque provides a key input both to the delivery team as an element of their definition of done for user stories but also for the architecure team as a key tool to underpin architecure evaluation activities.
+
 ### Summary
 
 In summary the deliverables that we will produce by phase are as follows:
 
 | Preliminary                     | Discovery               | Evolution
-| -                               | -                       | -
+| ---                             | ---                     | ---
 | Architecture Building Blocks    | Architecture Principles | Architecture Description
 | Architecture Repository         | Architecture Vision | Architecture Roadmap |
 | Business Context                | | System Quality Specification |
