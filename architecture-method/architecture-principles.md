@@ -76,7 +76,7 @@ For simplicity we will record the principles that relate to each other below, pr
 | OFP-CC2 |  14 | If we are to be successful in delivering a substantive shift in usage of of public services from traditional channels to digital channels then the services we build must be available on the widest possible range of devices, operating systems and browsers.
 | OFP-PO1 |  18 | Direct match. |
 | OFP-SW1 |   5 | Direct match. |
-| OFP-CV1 |   6 | A robust but efficient method of identify, analysing and appraising different technology options is crucial to making informed decisions when sourcing either a whole or parts of a solution.
+| OFP-CV1 |   6 | A robust but efficient method of identifying, analysing and appraising different technology options is crucial to making informed decisions when sourcing either a whole or parts of a solution.
 | OFP-CV2 | 2,3 | Collaboration is not just about working effectively within a division or directorate but also about disregarding organisational boundaries to construct high-performing, cross-functional teams of subject matter experts as well as engaging with the citizens who consume our services and acting on the feedback they provide.
 | OFP-CV4 |   9 | Direct match. |
 | OFP-CV5 |   8 | Direct match. |
